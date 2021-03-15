@@ -19,20 +19,20 @@ class App extends Component {
             </form>
           </div>
         </div>
-        <div class="bg-black flex text-white py-30">
-          <div>
-            <img src={process.env.PUBLIC_URL + '/images/voice-only.png'} />
+        <div class="bg-black flex py-20 justify-items-center px-10 text-white">
+          <div class="flex flex-col space-y-3">
+            <img class="h-15 w-20" src={process.env.PUBLIC_URL + '/images/voice-only.png'} />
             <h2 class="text-2xl">Voice Only</h2>
             <p>A voice only communication tool that enables teams to communicate with emotion and purpose.</p>
           </div>
-          <div>
-            <img src={process.env.PUBLIC_URL + '/images/distraction-free.png'} />
-            <h2>Distraction Free</h2>
+          <div class="flex flex-col space-y-3">
+            <img class="h-14 w-14" src={process.env.PUBLIC_URL + '/images/distraction-free.png'} />
+            <h2 class="text-2xl">Distraction Free</h2>
             <p>No more ⌘-tabbing. Spend less time in slack channels and more time on the work that actually matters.</p>
           </div>
-          <div>
-            <img src={process.env.PUBLIC_URL + '/images/closer-together.png'} />
-            <h2>Closer Together</h2>
+          <div class="flex flex-col space-y-3">
+            <img class="h-15 w-20" src={process.env.PUBLIC_URL + '/images/closer-together.png'} />
+            <h2 class="text-2xl">Closer Together</h2>
             <p>Subtle hints of presence so that even the most distributed teams feel connected across continents.</p>
           </div>
         </div>
